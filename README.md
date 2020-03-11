@@ -1,4 +1,5 @@
 # Простой пример использования Rx-Vue при ассинхронной работе с API на примере Github API
+[![Build Status](https://travis-ci.com/mikhail-shpakov/fetch-github-profiles-with-vue-rx.svg?branch=master)](https://travis-ci.com/mikhail-shpakov/fetch-github-profiles-with-vue-rx)
 
 Проект размещён на [Github Pages](https://pages.github.com/)
 и доступен по [ссылке](https://mikhail-shpakov.github.io/fetch-github-profiles-with-vue-rx/).
