@@ -18,6 +18,7 @@ v-container.mb-10
     v-if="profileName === ''"
     alt="profiles"
     width="360"
+    height="350"
     :src="require('@/assets/profiles.svg')"
   )
 
@@ -44,6 +45,7 @@ v-container.mb-10
     v-img.ma-auto(
       alt="empty"
       width="360"
+      height="350"
       :src="require('@/assets/empty.svg')"
     )
     .mt-10 Пользователи с таким именем не найдены
@@ -97,3 +99,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+div.mb-10 {
+  max-width: 960px;
+}
+</style>

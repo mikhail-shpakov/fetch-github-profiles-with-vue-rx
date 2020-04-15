@@ -12,6 +12,7 @@ v-app-bar(
       v-img.shrink.mr-2(
         alt="Logo"
         width="80"
+        height="49"
         :src="require('@/assets/logo.svg')"
       )
   v-spacer
@@ -30,3 +31,16 @@ export default {
   name: 'TopBar'
 }
 </script>
+
+<style>
+div.v-toolbar__content {
+  max-width: 960px;
+  margin: auto;
+}
+
+@media (min-width: 796px) {
+  div.v-toolbar__content {
+    padding: 4px 0
+  }
+}
+</style>
