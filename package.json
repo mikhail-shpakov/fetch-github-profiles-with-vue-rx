@@ -30,7 +30,7 @@
     "sass": "^1.26.3",
     "vue": "^2.6.11",
     "vue-rx": "^6.2.0",
-    "vuetify": "^2.2.22"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli": "^4.3.1",
